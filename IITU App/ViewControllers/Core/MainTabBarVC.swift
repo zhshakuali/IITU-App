@@ -24,11 +24,11 @@ class MainTabBarVC: UITabBarController {
         vc3.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(systemName: "person"), tag: 1)
     
 
-        vc1.navigationBar.prefersLargeTitles = true
+        vc1.navigationBar.prefersLargeTitles = false
         vc2.navigationBar.prefersLargeTitles = true
         vc3.navigationBar.prefersLargeTitles = true
 
-        vc1.navigationItem.largeTitleDisplayMode = .always
+        vc1.navigationItem.largeTitleDisplayMode = .never
         vc2.navigationItem.largeTitleDisplayMode = .always
         vc3.navigationItem.largeTitleDisplayMode = .always
         
@@ -36,14 +36,11 @@ class MainTabBarVC: UITabBarController {
         vc2.navigationBar.tintColor = .label
         vc3.navigationBar.tintColor = .label
         
-        vc1.title = "Home"
-        vc2.title = "Courses"
-        vc3.title = "Profile"
-        
+       
        setViewControllers([vc1, vc2, vc3], animated: false)
         
         UITabBar.appearance().tintColor = .red
-        
+        self.navigationItem.hidesBackButton = true
     }
 
 

@@ -29,7 +29,7 @@ class ProfileVC: UIViewController {
     
     private let profileImage: UIImageView = {
        let image = UIImageView()
-//        image.image = UIImage(systemName: "photo")
+        image.image = UIImage(named: "zhansImage")
         image.backgroundColor = .white
         image.contentMode = .scaleAspectFill
         image.layer.masksToBounds = true
@@ -71,16 +71,12 @@ class ProfileVC: UIViewController {
             width: view.width,
             height: view.height - view.safeAreaInsets.top - view.safeAreaInsets.bottom - 55)
         
-        
-        
-        
-        
     }
     
     private func addChildren() {
         addChild(aboutmeVC)
         scrollView.addSubview(aboutmeVC.view)
-        aboutmeVC.view.frame = CGRect(x: 0, y: 0, width: scrollView.width, height: scrollView.height)
+        aboutmeVC.view.frame = CGRect(x: 0, y: 0, width: scrollView.width, height: scrollView.height - view.safeAreaInsets.bottom)
         aboutmeVC.didMove(toParent: self)
         
         addChild(scheduleVC)

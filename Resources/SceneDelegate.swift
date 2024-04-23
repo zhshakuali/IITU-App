@@ -18,14 +18,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
         window?.rootViewController = MainTabBarVC()
+//        window?.rootViewController = UINavigationController(rootViewController: OnboardingUIPageViewController())
         window?.makeKeyAndVisible()
         
-        configureNavigationBar()
+//        configureNavigationBar()
     }
     
-    func configureNavigationBar() {
-        UINavigationBar.appearance().tintColor = .systemBackground
-    }
+//    func configureNavigationBar() {
+//        UINavigationBar.appearance().tintColor = .systemBackground
+//    }
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
