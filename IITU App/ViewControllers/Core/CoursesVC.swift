@@ -11,7 +11,7 @@ class CoursesVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Course"
+        title = "Courses"
         view.backgroundColor = .systemBackground
     }
     

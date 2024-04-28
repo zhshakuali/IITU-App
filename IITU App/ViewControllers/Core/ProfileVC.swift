@@ -43,7 +43,7 @@ class ProfileVC: UIViewController {
         view.addSubview(toggleView)
         toggleView.delegate = self
         scrollView.delegate = self
-        scrollView.contentSize = CGSize(width: view.width*3, height: scrollView.height)
+        scrollView.contentSize = CGSize(width: view.frame.size.width * 3, height: scrollView.frame.size.height)
         setHeaderView()
         addChildren()
     }
@@ -63,30 +63,30 @@ class ProfileVC: UIViewController {
         
         profileImage.layer.cornerRadius = imageSize/2
         
-        toggleView.frame = CGRect(x: 0, y: headerView.bottom, width: view.width, height: 55)
+        toggleView.frame = CGRect(x: 0, y: headerView.bottom, width: view.frame.size.width, height: 55)
         
         scrollView.frame = CGRect(
             x: 0,
             y: toggleView.bottom,
-            width: view.width,
-            height: view.height - view.safeAreaInsets.top - view.safeAreaInsets.bottom - 55)
+            width: view.frame.size.width,
+            height: view.frame.size.height - view.safeAreaInsets.top - view.safeAreaInsets.bottom - 55)
         
     }
     
     private func addChildren() {
         addChild(aboutmeVC)
         scrollView.addSubview(aboutmeVC.view)
-        aboutmeVC.view.frame = CGRect(x: 0, y: 0, width: scrollView.width, height: scrollView.height - view.safeAreaInsets.bottom)
+        aboutmeVC.view.frame = CGRect(x: 0, y: 0, width: scrollView.frame.size.width, height: scrollView.frame.size.height - view.safeAreaInsets.bottom)
         aboutmeVC.didMove(toParent: self)
         
         addChild(scheduleVC)
         scrollView.addSubview(scheduleVC.view)
-        scheduleVC.view.frame = CGRect(x: view.width, y: 0, width: scrollView.width, height: scrollView.height)
+        scheduleVC.view.frame = CGRect(x: view.frame.size.width, y: 0, width: scrollView.frame.size.width, height: scrollView.frame.size.height)
         scheduleVC.didMove(toParent: self)
         
         addChild(editProfileVC)
         scrollView.addSubview(editProfileVC.view)
-        editProfileVC.view.frame = CGRect(x: view.width + view.width, y: 0, width: scrollView.width, height: scrollView.height)
+        editProfileVC.view.frame = CGRect(x: view.frame.size.width + view.frame.size.width, y: 0, width: scrollView.frame.size.width, height: scrollView.frame.size.height)
         editProfileVC.didMove(toParent: self)
         
     }
@@ -115,11 +115,11 @@ extension ProfileVC: ProfileToggleViewDelegate {
     }
     
     func profileToggleViewDidTapSchedule(_ toggleView: ProfileToggleView) {
-        scrollView.setContentOffset(CGPoint(x: view.width, y: 0), animated: true)
+        scrollView.setContentOffset(CGPoint(x: view.frame.size.width, y: 0), animated: true)
     }
     
     func profileToggleViewDidTapEditingProfile(_ toggleView: ProfileToggleView) {
-        scrollView.setContentOffset(CGPoint(x: view.width * 2, y: 0), animated: true)
+        scrollView.setContentOffset(CGPoint(x: view.frame.size.width * 2, y: 0), animated: true)
     }
     
     

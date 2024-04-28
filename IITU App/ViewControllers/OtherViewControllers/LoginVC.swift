@@ -22,7 +22,7 @@ class LoginVC: UIViewController {
         button.contentEdgeInsets = UIEdgeInsets(top: 8, left: 16, bottom: 8, right: 16)
         button.backgroundColor = .systemRed
         button.layer.cornerRadius = 8
-        button.addTarget(self, action: #selector(handleLogIn), for: .touchUpInside)
+        button.addTarget(LoginVC.self, action: #selector(handleLogIn), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()

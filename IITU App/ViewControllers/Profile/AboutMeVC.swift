@@ -28,7 +28,7 @@ class AboutMeVC: UIViewController {
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .red
         button.layer.cornerRadius = 10
-        button.addTarget(self, action: #selector(logOut), for: .touchUpInside)
+        button.addTarget(AboutMeVC.self, action: #selector(logOut), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F35772B2BD7C56700970CF5 /* stories.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F35772A2BD7C56700970CF5 /* stories.json */; };
+		9F35772D2BD7C56E00970CF5 /* IGAppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F35772C2BD7C56E00970CF5 /* IGAppUtility.swift */; };
 		9F74D8F92BB4023B0057F10A /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74D8F82BB4023B0057F10A /* MainTabBarVC.swift */; };
 		9F74D8FB2BB402910057F10A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74D8FA2BB402910057F10A /* HomeVC.swift */; };
 		9F74D8FD2BB402A20057F10A /* CoursesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74D8FC2BB402A20057F10A /* CoursesVC.swift */; };
@@ -24,6 +26,44 @@
 		9FB34EC12B923DAD00E6F3BD /* IITU_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB34EC02B923DAD00E6F3BD /* IITU_AppTests.swift */; };
 		9FB34ECB2B923DAD00E6F3BD /* IITU_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB34ECA2B923DAD00E6F3BD /* IITU_AppUITests.swift */; };
 		9FB34ECD2B923DAD00E6F3BD /* IITU_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB34ECC2B923DAD00E6F3BD /* IITU_AppUITestsLaunchTests.swift */; };
+		9FF34D102BDA507600835588 /* IGMockLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CE02BDA507600835588 /* IGMockLoader.swift */; };
+		9FF34D112BDA507600835588 /* IGStoryPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CE22BDA507600835588 /* IGStoryPreviewCell.swift */; };
+		9FF34D122BDA507600835588 /* IGStoryPreviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CE42BDA507600835588 /* IGStoryPreviewModel.swift */; };
+		9FF34D132BDA507600835588 /* IGStoryPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CE52BDA507600835588 /* IGStoryPreviewController.swift */; };
+		9FF34D142BDA507600835588 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CE72BDA507600835588 /* UIView+Extension.swift */; };
+		9FF34D152BDA507600835588 /* IGAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CE82BDA507600835588 /* IGAdditions.swift */; };
+		9FF34D162BDA507600835588 /* Color+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CE92BDA507600835588 /* Color+Additions.swift */; };
+		9FF34D172BDA507600835588 /* ImageView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CEA2BDA507600835588 /* ImageView+Additions.swift */; };
+		9FF34D182BDA507600835588 /* IGSnapProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CEC2BDA507600835588 /* IGSnapProgressView.swift */; };
+		9FF34D192BDA507600835588 /* IGStoryPreviewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CED2BDA507600835588 /* IGStoryPreviewHeaderView.swift */; };
+		9FF34D1A2BDA507600835588 /* IGStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CEF2BDA507600835588 /* IGStory.swift */; };
+		9FF34D1B2BDA507600835588 /* IGStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CF02BDA507600835588 /* IGStories.swift */; };
+		9FF34D1C2BDA507600835588 /* IGSnap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CF12BDA507600835588 /* IGSnap.swift */; };
+		9FF34D1D2BDA507600835588 /* IGUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CF22BDA507600835588 /* IGUser.swift */; };
+		9FF34D1E2BDA507600835588 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CF42BDA507600835588 /* UIImageView+Extension.swift */; };
+		9FF34D1F2BDA507600835588 /* IGResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CF52BDA507600835588 /* IGResult.swift */; };
+		9FF34D202BDA507600835588 /* IGRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CF62BDA507600835588 /* IGRoundedView.swift */; };
+		9FF34D212BDA507600835588 /* IGImageRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CF72BDA507600835588 /* IGImageRequestable.swift */; };
+		9FF34D222BDA507600835588 /* IGError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CF82BDA507600835588 /* IGError.swift */; };
+		9FF34D232BDA507600835588 /* IGURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CF92BDA507600835588 /* IGURLSession.swift */; };
+		9FF34D242BDA507600835588 /* IGCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CFA2BDA507600835588 /* IGCache.swift */; };
+		9FF34D252BDA507600835588 /* IGVideoCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CFC2BDA507600835588 /* IGVideoCacheManager.swift */; };
+		9FF34D262BDA507600835588 /* IGPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34CFE2BDA507600835588 /* IGPlayerView.swift */; };
+		9FF34D272BDA507600835588 /* IGCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34D002BDA507600835588 /* IGCommon.swift */; };
+		9FF34D282BDA507600835588 /* IGConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34D012BDA507600835588 /* IGConstants.swift */; };
+		9FF34D292BDA507600835588 /* IGRetryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34D022BDA507600835588 /* IGRetryButton.swift */; };
+		9FF34D2A2BDA507600835588 /* IGStoryPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34D042BDA507600835588 /* IGStoryPreviewView.swift */; };
+		9FF34D2B2BDA507600835588 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34D072BDA507600835588 /* Reachability.swift */; };
+		9FF34D2C2BDA507600835588 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9FF34D092BDA507600835588 /* LICENSE */; };
+		9FF34D2D2BDA507600835588 /* CubeAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34D0B2BDA507600835588 /* CubeAttributesAnimator.swift */; };
+		9FF34D2E2BDA507600835588 /* AnimatedCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34D0C2BDA507600835588 /* AnimatedCollectionViewLayout.swift */; };
+		9FF34D2F2BDA507600835588 /* UIView+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34D0D2BDA507600835588 /* UIView+Anchor.swift */; };
+		9FF34D302BDA507600835588 /* LayoutAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34D0E2BDA507600835588 /* LayoutAttributesAnimator.swift */; };
+		9FF34D312BDA507600835588 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9FF34D0F2BDA507600835588 /* README.md */; };
+		9FF34D352BDA50D900835588 /* IGStoryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34D342BDA50D900835588 /* IGStoryListCell.swift */; };
+		9FF34D372BDA510000835588 /* IGHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34D362BDA510000835588 /* IGHomeView.swift */; };
+		9FF34D3B2BDA514400835588 /* IGHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34D3A2BDA514400835588 /* IGHomeViewModel.swift */; };
+		9FF34D3E2BDA544800835588 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF34D3D2BDA544800835588 /* AVFoundation.framework */; };
 		9FF4988B2BD03AA500B18765 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4988A2BD03AA500B18765 /* LoginVC.swift */; };
 		9FF4988D2BD1152300B18765 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4988C2BD1152300B18765 /* OnboardingViewController.swift */; };
 		9FF4988F2BD1158E00B18765 /* OnboardingUIPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4988E2BD1158E00B18765 /* OnboardingUIPageViewController.swift */; };
@@ -47,6 +87,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F35772A2BD7C56700970CF5 /* stories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stories.json; sourceTree = "<group>"; };
+		9F35772C2BD7C56E00970CF5 /* IGAppUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGAppUtility.swift; sourceTree = "<group>"; };
 		9F74D8F82BB4023B0057F10A /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
 		9F74D8FA2BB402910057F10A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		9F74D8FC2BB402A20057F10A /* CoursesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesVC.swift; sourceTree = "<group>"; };
@@ -68,6 +110,44 @@
 		9FB34EC62B923DAD00E6F3BD /* IITU AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IITU AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB34ECA2B923DAD00E6F3BD /* IITU_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IITU_AppUITests.swift; sourceTree = "<group>"; };
 		9FB34ECC2B923DAD00E6F3BD /* IITU_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IITU_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9FF34CE02BDA507600835588 /* IGMockLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGMockLoader.swift; sourceTree = "<group>"; };
+		9FF34CE22BDA507600835588 /* IGStoryPreviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGStoryPreviewCell.swift; sourceTree = "<group>"; };
+		9FF34CE42BDA507600835588 /* IGStoryPreviewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGStoryPreviewModel.swift; sourceTree = "<group>"; };
+		9FF34CE52BDA507600835588 /* IGStoryPreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGStoryPreviewController.swift; sourceTree = "<group>"; };
+		9FF34CE72BDA507600835588 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		9FF34CE82BDA507600835588 /* IGAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGAdditions.swift; sourceTree = "<group>"; };
+		9FF34CE92BDA507600835588 /* Color+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Additions.swift"; sourceTree = "<group>"; };
+		9FF34CEA2BDA507600835588 /* ImageView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageView+Additions.swift"; sourceTree = "<group>"; };
+		9FF34CEC2BDA507600835588 /* IGSnapProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGSnapProgressView.swift; sourceTree = "<group>"; };
+		9FF34CED2BDA507600835588 /* IGStoryPreviewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGStoryPreviewHeaderView.swift; sourceTree = "<group>"; };
+		9FF34CEF2BDA507600835588 /* IGStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGStory.swift; sourceTree = "<group>"; };
+		9FF34CF02BDA507600835588 /* IGStories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGStories.swift; sourceTree = "<group>"; };
+		9FF34CF12BDA507600835588 /* IGSnap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGSnap.swift; sourceTree = "<group>"; };
+		9FF34CF22BDA507600835588 /* IGUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGUser.swift; sourceTree = "<group>"; };
+		9FF34CF42BDA507600835588 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		9FF34CF52BDA507600835588 /* IGResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGResult.swift; sourceTree = "<group>"; };
+		9FF34CF62BDA507600835588 /* IGRoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGRoundedView.swift; sourceTree = "<group>"; };
+		9FF34CF72BDA507600835588 /* IGImageRequestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGImageRequestable.swift; sourceTree = "<group>"; };
+		9FF34CF82BDA507600835588 /* IGError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGError.swift; sourceTree = "<group>"; };
+		9FF34CF92BDA507600835588 /* IGURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGURLSession.swift; sourceTree = "<group>"; };
+		9FF34CFA2BDA507600835588 /* IGCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGCache.swift; sourceTree = "<group>"; };
+		9FF34CFC2BDA507600835588 /* IGVideoCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGVideoCacheManager.swift; sourceTree = "<group>"; };
+		9FF34CFE2BDA507600835588 /* IGPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGPlayerView.swift; sourceTree = "<group>"; };
+		9FF34D002BDA507600835588 /* IGCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGCommon.swift; sourceTree = "<group>"; };
+		9FF34D012BDA507600835588 /* IGConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGConstants.swift; sourceTree = "<group>"; };
+		9FF34D022BDA507600835588 /* IGRetryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGRetryButton.swift; sourceTree = "<group>"; };
+		9FF34D042BDA507600835588 /* IGStoryPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGStoryPreviewView.swift; sourceTree = "<group>"; };
+		9FF34D072BDA507600835588 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		9FF34D092BDA507600835588 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9FF34D0B2BDA507600835588 /* CubeAttributesAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubeAttributesAnimator.swift; sourceTree = "<group>"; };
+		9FF34D0C2BDA507600835588 /* AnimatedCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedCollectionViewLayout.swift; sourceTree = "<group>"; };
+		9FF34D0D2BDA507600835588 /* UIView+Anchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Anchor.swift"; sourceTree = "<group>"; };
+		9FF34D0E2BDA507600835588 /* LayoutAttributesAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutAttributesAnimator.swift; sourceTree = "<group>"; };
+		9FF34D0F2BDA507600835588 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9FF34D342BDA50D900835588 /* IGStoryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGStoryListCell.swift; sourceTree = "<group>"; };
+		9FF34D362BDA510000835588 /* IGHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGHomeView.swift; sourceTree = "<group>"; };
+		9FF34D3A2BDA514400835588 /* IGHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGHomeViewModel.swift; sourceTree = "<group>"; };
+		9FF34D3D2BDA544800835588 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9FF4988A2BD03AA500B18765 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		9FF4988C2BD1152300B18765 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		9FF4988E2BD1158E00B18765 /* OnboardingUIPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingUIPageViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF34D3E2BDA544800835588 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +246,7 @@
 				9FB34EBF2B923DAD00E6F3BD /* IITU AppTests */,
 				9FB34EC92B923DAD00E6F3BD /* IITU AppUITests */,
 				9FB34EA72B923DAC00E6F3BD /* Products */,
+				9FF34D3C2BDA544800835588 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,6 +263,10 @@
 		9FB34EA82B923DAC00E6F3BD /* IITU App */ = {
 			isa = PBXGroup;
 			children = (
+				9FF34D322BDA509900835588 /* Home */,
+				9FF34CDE2BDA507600835588 /* Source */,
+				9F35772C2BD7C56E00970CF5 /* IGAppUtility.swift */,
+				9F35772A2BD7C56700970CF5 /* stories.json */,
 				9F74D9072BB881470057F10A /* ViewControllers */,
 				9F74D9042BB7FB500057F10A /* Views */,
 				9F74D9132BBF36610057F10A /* ViewModels */,
@@ -204,6 +290,185 @@
 				9FB34ECC2B923DAD00E6F3BD /* IITU_AppUITestsLaunchTests.swift */,
 			);
 			path = "IITU AppUITests";
+			sourceTree = "<group>";
+		};
+		9FF34CDE2BDA507600835588 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9FF34CDF2BDA507600835588 /* Stubs */,
+				9FF34CE12BDA507600835588 /* CollectionViewCell */,
+				9FF34CE32BDA507600835588 /* StoryPreview */,
+				9FF34CE62BDA507600835588 /* Extension */,
+				9FF34CEB2BDA507600835588 /* StoryHeaderView & ProgressView */,
+				9FF34CEE2BDA507600835588 /* Models */,
+				9FF34CF32BDA507600835588 /* ImageStorer */,
+				9FF34CFB2BDA507600835588 /* Video Cache */,
+				9FF34CFD2BDA507600835588 /* IGPlayerView */,
+				9FF34CFF2BDA507600835588 /* Common */,
+				9FF34D032BDA507600835588 /* StoryPreviewView */,
+				9FF34D052BDA507600835588 /* External */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9FF34CDF2BDA507600835588 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				9FF34CE02BDA507600835588 /* IGMockLoader.swift */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		9FF34CE12BDA507600835588 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9FF34CE22BDA507600835588 /* IGStoryPreviewCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		9FF34CE32BDA507600835588 /* StoryPreview */ = {
+			isa = PBXGroup;
+			children = (
+				9FF34CE42BDA507600835588 /* IGStoryPreviewModel.swift */,
+				9FF34CE52BDA507600835588 /* IGStoryPreviewController.swift */,
+			);
+			path = StoryPreview;
+			sourceTree = "<group>";
+		};
+		9FF34CE62BDA507600835588 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9FF34CE72BDA507600835588 /* UIView+Extension.swift */,
+				9FF34CE82BDA507600835588 /* IGAdditions.swift */,
+				9FF34CE92BDA507600835588 /* Color+Additions.swift */,
+				9FF34CEA2BDA507600835588 /* ImageView+Additions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9FF34CEB2BDA507600835588 /* StoryHeaderView & ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				9FF34CEC2BDA507600835588 /* IGSnapProgressView.swift */,
+				9FF34CED2BDA507600835588 /* IGStoryPreviewHeaderView.swift */,
+			);
+			path = "StoryHeaderView & ProgressView";
+			sourceTree = "<group>";
+		};
+		9FF34CEE2BDA507600835588 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FF34CEF2BDA507600835588 /* IGStory.swift */,
+				9FF34CF02BDA507600835588 /* IGStories.swift */,
+				9FF34CF12BDA507600835588 /* IGSnap.swift */,
+				9FF34CF22BDA507600835588 /* IGUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9FF34CF32BDA507600835588 /* ImageStorer */ = {
+			isa = PBXGroup;
+			children = (
+				9FF34CF42BDA507600835588 /* UIImageView+Extension.swift */,
+				9FF34CF52BDA507600835588 /* IGResult.swift */,
+				9FF34CF62BDA507600835588 /* IGRoundedView.swift */,
+				9FF34CF72BDA507600835588 /* IGImageRequestable.swift */,
+				9FF34CF82BDA507600835588 /* IGError.swift */,
+				9FF34CF92BDA507600835588 /* IGURLSession.swift */,
+				9FF34CFA2BDA507600835588 /* IGCache.swift */,
+			);
+			path = ImageStorer;
+			sourceTree = "<group>";
+		};
+		9FF34CFB2BDA507600835588 /* Video Cache */ = {
+			isa = PBXGroup;
+			children = (
+				9FF34CFC2BDA507600835588 /* IGVideoCacheManager.swift */,
+			);
+			path = "Video Cache";
+			sourceTree = "<group>";
+		};
+		9FF34CFD2BDA507600835588 /* IGPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				9FF34CFE2BDA507600835588 /* IGPlayerView.swift */,
+			);
+			path = IGPlayerView;
+			sourceTree = "<group>";
+		};
+		9FF34CFF2BDA507600835588 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9FF34D002BDA507600835588 /* IGCommon.swift */,
+				9FF34D012BDA507600835588 /* IGConstants.swift */,
+				9FF34D022BDA507600835588 /* IGRetryButton.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9FF34D032BDA507600835588 /* StoryPreviewView */ = {
+			isa = PBXGroup;
+			children = (
+				9FF34D042BDA507600835588 /* IGStoryPreviewView.swift */,
+			);
+			path = StoryPreviewView;
+			sourceTree = "<group>";
+		};
+		9FF34D052BDA507600835588 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				9FF34D062BDA507600835588 /* Reachability */,
+				9FF34D082BDA507600835588 /* AnimatedCollectionViewLayout */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		9FF34D062BDA507600835588 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				9FF34D072BDA507600835588 /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		9FF34D082BDA507600835588 /* AnimatedCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				9FF34D092BDA507600835588 /* LICENSE */,
+				9FF34D0A2BDA507600835588 /* Source */,
+				9FF34D0F2BDA507600835588 /* README.md */,
+			);
+			path = AnimatedCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		9FF34D0A2BDA507600835588 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9FF34D0B2BDA507600835588 /* CubeAttributesAnimator.swift */,
+				9FF34D0C2BDA507600835588 /* AnimatedCollectionViewLayout.swift */,
+				9FF34D0D2BDA507600835588 /* UIView+Anchor.swift */,
+				9FF34D0E2BDA507600835588 /* LayoutAttributesAnimator.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9FF34D322BDA509900835588 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9FF34D342BDA50D900835588 /* IGStoryListCell.swift */,
+				9FF34D362BDA510000835588 /* IGHomeView.swift */,
+				9FF34D3A2BDA514400835588 /* IGHomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9FF34D3C2BDA544800835588 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FF34D3D2BDA544800835588 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9FF498892BD03A8500B18765 /* OtherViewControllers */ = {
@@ -320,7 +585,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F35772B2BD7C56700970CF5 /* stories.json in Resources */,
 				9FB34EB62B923DAD00E6F3BD /* LaunchScreen.storyboard in Resources */,
+				9FF34D312BDA507600835588 /* README.md in Resources */,
+				9FF34D2C2BDA507600835588 /* LICENSE in Resources */,
 				9FB34EB32B923DAD00E6F3BD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,20 +614,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF34D252BDA507600835588 /* IGVideoCacheManager.swift in Sources */,
+				9FF34D112BDA507600835588 /* IGStoryPreviewCell.swift in Sources */,
+				9FF34D352BDA50D900835588 /* IGStoryListCell.swift in Sources */,
+				9FF34D272BDA507600835588 /* IGCommon.swift in Sources */,
 				9F74D90E2BB881930057F10A /* EditProfileVC.swift in Sources */,
+				9FF34D182BDA507600835588 /* IGSnapProgressView.swift in Sources */,
 				9F74D90A2BB881750057F10A /* AboutMeVC.swift in Sources */,
+				9FF34D152BDA507600835588 /* IGAdditions.swift in Sources */,
 				9F74D9012BB7FA5F0057F10A /* ProfileVC.swift in Sources */,
+				9FF34D192BDA507600835588 /* IGStoryPreviewHeaderView.swift in Sources */,
+				9FF34D2F2BDA507600835588 /* UIView+Anchor.swift in Sources */,
+				9FF34D212BDA507600835588 /* IGImageRequestable.swift in Sources */,
+				9FF34D292BDA507600835588 /* IGRetryButton.swift in Sources */,
+				9FF34D132BDA507600835588 /* IGStoryPreviewController.swift in Sources */,
+				9FF34D262BDA507600835588 /* IGPlayerView.swift in Sources */,
+				9FF34D202BDA507600835588 /* IGRoundedView.swift in Sources */,
 				9F74D8FB2BB402910057F10A /* HomeVC.swift in Sources */,
+				9FF34D162BDA507600835588 /* Color+Additions.swift in Sources */,
+				9FF34D1A2BDA507600835588 /* IGStory.swift in Sources */,
+				9FF34D1B2BDA507600835588 /* IGStories.swift in Sources */,
+				9FF34D2B2BDA507600835588 /* Reachability.swift in Sources */,
 				9F74D9102BB882730057F10A /* ProfileToggleView.swift in Sources */,
 				9FF4988F2BD1158E00B18765 /* OnboardingUIPageViewController.swift in Sources */,
+				9FF34D2D2BDA507600835588 /* CubeAttributesAnimator.swift in Sources */,
+				9FF34D1D2BDA507600835588 /* IGUser.swift in Sources */,
+				9FF34D2E2BDA507600835588 /* AnimatedCollectionViewLayout.swift in Sources */,
+				9FF34D302BDA507600835588 /* LayoutAttributesAnimator.swift in Sources */,
 				9FB34EAA2B923DAC00E6F3BD /* AppDelegate.swift in Sources */,
+				9FF34D282BDA507600835588 /* IGConstants.swift in Sources */,
 				9F74D9152BBF36AE0057F10A /* UserInformationViewModel.swift in Sources */,
+				9FF34D1C2BDA507600835588 /* IGSnap.swift in Sources */,
+				9FF34D372BDA510000835588 /* IGHomeView.swift in Sources */,
+				9FF34D2A2BDA507600835588 /* IGStoryPreviewView.swift in Sources */,
+				9FF34D232BDA507600835588 /* IGURLSession.swift in Sources */,
 				9F74D9122BB889240057F10A /* Extensions.swift in Sources */,
 				9F74D90C2BB881850057F10A /* ScheduleVC.swift in Sources */,
 				9FF4988B2BD03AA500B18765 /* LoginVC.swift in Sources */,
+				9F35772D2BD7C56E00970CF5 /* IGAppUtility.swift in Sources */,
+				9FF34D222BDA507600835588 /* IGError.swift in Sources */,
+				9FF34D102BDA507600835588 /* IGMockLoader.swift in Sources */,
+				9FF34D1E2BDA507600835588 /* UIImageView+Extension.swift in Sources */,
+				9FF34D1F2BDA507600835588 /* IGResult.swift in Sources */,
+				9FF34D142BDA507600835588 /* UIView+Extension.swift in Sources */,
 				9FB34EAC2B923DAC00E6F3BD /* SceneDelegate.swift in Sources */,
+				9FF34D122BDA507600835588 /* IGStoryPreviewModel.swift in Sources */,
+				9FF34D3B2BDA514400835588 /* IGHomeViewModel.swift in Sources */,
+				9FF34D172BDA507600835588 /* ImageView+Additions.swift in Sources */,
 				9FF4988D2BD1152300B18765 /* OnboardingViewController.swift in Sources */,
 				9F74D8F92BB4023B0057F10A /* MainTabBarVC.swift in Sources */,
+				9FF34D242BDA507600835588 /* IGCache.swift in Sources */,
 				9F74D8FD2BB402A20057F10A /* CoursesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
